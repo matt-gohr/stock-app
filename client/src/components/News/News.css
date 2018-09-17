@@ -1,0 +1,37 @@
+.news {
+  margin-top: 30px;
+  text-align: center;
+  font-family: "Open Sans";
+  color: #124257;
+  border: 1px solid lightgrey;
+  box-shadow: 0 2px 4px #999, 0 2px 4px #999;
+  margin-bottom: 30px;
+  border-radius: 5px;
+  background-color: white;
+  height: 436px;
+}
+
+h1 {
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+#blurb {
+  text-align: left;
+  color: #124257;
+}
+
+#blurb:hover {
+  color: #50ae54;
+}
+
+@media screen and (max-width: 620px) {
+  h1 {
+    font-size: 15px;
+  }
+
+  #blurb {
+    font-size: 10px;
+
+  }
+}

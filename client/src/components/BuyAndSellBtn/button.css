@@ -1,0 +1,20 @@
+.form-control {
+    min-width: 100px;
+}
+
+.input-group-prepend {
+    z-index: 1;
+}
+
+#modal {
+    background-color: red;
+    top: "50%";
+    left: "50%";
+    right: "auto";
+    bottom: "auto";
+    margin-right: "-50%";
+    transform: "translate(-50%, -50%)";
+    color: "green";
+
+}
+

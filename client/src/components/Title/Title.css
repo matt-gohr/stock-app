@@ -1,0 +1,38 @@
+.row {
+  width: 100%;
+}
+
+.title {
+  font-size: 50px;
+  font-family: "Open Sans";
+  color: white;
+}
+
+.form {
+  text-align: center;
+  font-family: "Open Sans";
+  position: relative;
+  top: 15px;
+}
+
+input {
+  border: 2px solid #26a69a;
+  border-radius: 5px;
+  font-size: 25px;
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .title {
+    font-size: 25px;
+  }
+
+  input {
+    font-size: 10px;
+    width: 70px;
+  }
+}
+
+.btn-outline-success {
+  padding-bottom: 30px;
+}

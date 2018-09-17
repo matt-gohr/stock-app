@@ -1,0 +1,63 @@
+.piechart {
+  text-align: center;
+  margin-top: 30px;
+  color: #124257;
+}
+
+.pieImg {
+  width: 80%;
+  border-radius: 100%;
+  box-shadow: 0 2px 4px #999, 0 2px 4px #999;
+}
+
+.pie {
+  box-shadow: 0 2px 4px #999, 0 2px 4px #999;
+}
+
+h4 {
+  margin-top: 20px;
+  font-family: "Open Sans";
+  text-align: center;
+}
+
+#btn1 {
+  color: purple;
+}
+
+#btn2 {
+  color: red;
+  padding-left: 8px;
+}
+
+#btn3 {
+  color: coral;
+}
+
+#btn4 {
+  color: gold;
+  padding-left: 20px;
+}
+
+#btn5 {
+  color: darkorange;
+}
+
+#btn6 {
+  color: darkgrey;
+  padding-left: 20px;
+}
+
+#btn7 {
+  color: darkgreen;
+}
+
+#btn8 {
+  color: blue;
+  padding-left: 20px;
+}
+
+.legend {
+  width: 200px;
+  margin: auto;
+  padding: 5px;
+}

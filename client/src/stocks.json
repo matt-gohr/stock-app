@@ -1,0 +1,47 @@
+[
+  {
+    "id": 0,
+    "name": "Stocks",
+    "title": "QQQ"
+  },
+  {
+    "id": 1,
+    "name": "-MSFT",
+    "title": "MSFT"
+  },
+  {
+    "id": 2,
+    "name": "-SPY",
+    "title": "SPY"
+  },
+  {
+    "id": 3,
+    "name": "-FB",
+    "title": "FB"
+  },
+  {
+    "id": 4,
+    "name": "-AAPL",
+    "title": "AAPL"
+  },
+  {
+    "id": 5,
+    "name": "-TSLA",
+    "title": "TSLA"
+  },
+  {
+    "id": 6,
+    "name": "-AMZN",
+    "title": "AMZN"
+  },
+  {
+    "id": 7,
+    "name": "-USO",
+    "title": "USO"
+  },
+  {
+    "id": 8,
+    "name": "-DOW",
+    "title": "QQQ"
+  }
+]

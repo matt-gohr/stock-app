@@ -1,0 +1,118 @@
+
+
+.bd-sidebar {
+  text-align: center;
+  border-right: 1px solid lightgrey;
+  height: 100vh;
+  max-width: 275px; 
+  position: fixed;
+  z-index: 100;
+  padding: 0px;
+  margin-top: 5px;
+  margin-left: -20px;
+  overflow: scroll;
+  color: #124257;
+  background-color: rgb(72, 72, 75);
+  box-shadow: 0 0 5px black;
+}
+
+.fixed-top, ul {
+  background-color: rgb(10, 10, 10);
+  font-family: "Open Sans";
+  
+  opacity: 0.75;
+}
+
+.fixed-top:hover { 
+  opacity: 1.0;
+}
+
+.fixed-top {
+  border: 1px solid grey;
+  box-shadow: 0 0 5px black;
+  
+}
+
+
+
+.bd-sidebar #brandName {
+  font-family: "Montserrat";
+  height: 60px;
+  line-height: 60px;
+  color: white;
+}
+
+@media screen and (max-width: 768px) {
+  .bd-sidebar #brandName {
+    height: 120px;
+    line-height: 30px;
+    padding-top: 30px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .bd-sidebar #studentName {
+    font-size: 12px;
+  }
+}
+
+.bd-sidebar #studentName {
+  font-family: "Open Sans";
+  background-color: #F5F4F2;
+  border: 1px solid lightgrey;
+  height: 60px;
+  line-height: 60px;
+  font-weight: bold;
+}
+
+.bd-sidebar #balance {
+  font-family: "Open Sans";
+  background-color: #E5E4E2;
+  border: 1px solid lightgrey;
+  color: black;
+  padding: 0px 0px 0px 10px;
+  min-height: 60px;
+  height: auto;
+  min-width: 200px;
+  line-height: 60px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.bd-sidebar ul li {
+  padding: 1rem 2.25rem;
+  font-family: "Open Sans";
+  border: 1px solid #E5E4E2;
+  width: 100%;
+  text-align: left;
+  background-color: white;
+}
+
+.bd-sidebar ul #stocks {
+  font-weight: bold;
+}
+
+#cashbalance {
+  color: green;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 1px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  display: none;
+  background: #f1f1f1; 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}

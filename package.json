@@ -1,0 +1,57 @@
+{
+  "name": "2-technocrats",
+  "version": "1.0.0",
+  "description": "a simple stock trading simulation app ",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LoganS44/2-technocrats.git"
+  },
+  "keywords": [
+    "stock",
+    "trading",
+    "best",
+    "app",
+    "ever",
+    "nodejs",
+    "node",
+    "express"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LoganS44/2-technocrats/issues"
+  },
+  "private": true,
+  "dependencies": {
+    "axios": "^0.18.0",
+    "bcrypt": "^2.0.1",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.17.2",
+    "concurrently": "^3.5.1",
+    "dotenv": "^5.0.1",
+    "express": "^4.16.3",
+    "file-loader": "^1.1.11",
+    "gravatar": "^1.6.0",
+    "jsonwebtoken": "^8.2.1",
+    "jwt-decode": "^2.2.0",
+    "mongoose": "^5.0.11",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "react-modal": "^3.4.4",
+    "shuffle-array": "^1.0.1",
+    "url-loader": "^1.0.1",
+    "validator": "^9.4.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.4"
+  },
+  "scripts": {
+    "client-install": "npm install --prefix client",
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
+  }
+}
